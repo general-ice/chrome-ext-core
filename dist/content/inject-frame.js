@@ -1,3 +1,4 @@
+// The root id isn't so major what is it string
 const ROOT_ID = 'ext-root-node';
 const VISIBLE_MODE = {
     TRUE: 'block',
@@ -53,13 +54,6 @@ function createRootNode() {
             toggle();
         }
     });
-
-    // Customise you external app dependensies
-    // For example, Upload Roboto font
-    // const l = document.createElement('link');
-    // l.rel = 'stylesheet';
-    // l.href = 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
-    // document.head.appendChild(l);
 
     return rootNode;
 }

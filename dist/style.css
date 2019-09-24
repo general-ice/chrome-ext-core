@@ -1,3 +1,5 @@
+/* Here you need setup width, height and other important style of our extension popup */
+
 #ext-root-node {
     background: #FFFFFF;
     position: fixed;

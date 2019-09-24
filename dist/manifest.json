@@ -5,10 +5,6 @@
   "version": "1.0",
   "description": "Extension SPA boilerplate",
   "browser_action": {},
-  "icons": {
-    "32": "icon.svg",
-    "48": "icon.svg"
-  },
   "background": {
     "page": "background/index.html",
     "persistent": false

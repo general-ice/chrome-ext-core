@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Extension core",
+  "author": "general-ice",
+  "version": "1.0",
+  "description": "Extension SPA boilerplate",
+  "browser_action": {},
+  "icons": {
+    "32": "icon.svg",
+    "48": "icon.svg"
+  },
+  "background": {
+    "page": "background/index.html",
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": ["content/inject-frame.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    "content/*"
+  ],
+  "permissions": ["tabs", "activeTab", "<all_urls>"]
+}
